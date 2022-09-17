@@ -22,13 +22,3 @@ jobs:
       uses: actions/setup-node@v2
     - name: Installation of Node.js dependencies
       run: npm i
-
-  commit-lint:
-    runs-on: ubuntu-20.04
-
-    steps:
-    - name: Project checkout
-      uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-    - uses: wagoid/commitlint-github-action@v2
