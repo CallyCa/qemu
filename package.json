@@ -49,7 +49,7 @@
     "prebuild-install": "^7.1.1"
   },
   "devDependencies": {
-    "buho": "^0.3.4",
+    "buho": "github:CallyCa/buhu.git",
     "ci-publish": "^1.3.1",
     "prebuild": "11.0.4"
   },
